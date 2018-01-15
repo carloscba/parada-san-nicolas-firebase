@@ -1,0 +1,40 @@
+[debug] [2018-01-15T02:01:59.566Z] ----------------------------------------------------------------------
+[debug] [2018-01-15T02:01:59.568Z] Command:       /usr/bin/node /usr/bin/firebase serve --only functions
+[debug] [2018-01-15T02:01:59.568Z] CLI Version:   3.16.0
+[debug] [2018-01-15T02:01:59.569Z] Platform:      linux
+[debug] [2018-01-15T02:01:59.569Z] Node Version:  v6.12.3
+[debug] [2018-01-15T02:01:59.569Z] Time:          Sun Jan 14 2018 23:01:59 GMT-0300 (-03)
+[debug] [2018-01-15T02:01:59.569Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-15T02:01:59.579Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-15T02:01:59.580Z] > authorizing via signed-in user
+[debug] [2018-01-15T02:01:59.582Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-15T02:01:59.582Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/C_6yU3UHcDm_7pu4FYvV8jvJjlxGEifLg-Cyg2x-Tys',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Jan 14 2018 23:01:59 GMT-0300 (-03)
+[debug] [2018-01-15T02:02:03.240Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-15T02:02:03.365Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/parada-san-nicolas  
+  
+ Sun Jan 14 2018 23:02:03 GMT-0300 (-03)
+[debug] [2018-01-15T02:02:05.682Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-15T02:02:05.685Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/parada-san-nicolas/tokens  
+  
+ Sun Jan 14 2018 23:02:05 GMT-0300 (-03)
+[debug] [2018-01-15T02:02:08.227Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/carloscba/Desarrollo/parada-san-nicolas'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-01-15T02:02:09.212Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/parada-san-nicolas  
+  
+ Sun Jan 14 2018 23:02:09 GMT-0300 (-03)
+[debug] [2018-01-15T02:02:09.217Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/parada-san-nicolas/apiKeys  
+  
+ Sun Jan 14 2018 23:02:09 GMT-0300 (-03)
+[debug] [2018-01-15T02:02:13.349Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-15T02:02:13.656Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: helloWorld: http://localhost:5000/parada-san-nicolas/us-central1/helloWorld
